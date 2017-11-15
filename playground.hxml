@@ -1,0 +1,9 @@
+-cp tests
+-main Playground
+-js bin/playground.js
+-dce full
+
+-lib sinch
+-lib hxnodejs
+
+-cmd node bin/playground.js
